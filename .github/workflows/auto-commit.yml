@@ -10,6 +10,10 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    env:
+     GH_API_KEY: ${{ secrets.GH_API_KEY }}
+     GH_USERNAME: ${{ secrets.GH_USERNAME }}
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
