@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "tsc &&  node build/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@octokit/rest": "^20.1.1",
+    "@types/node": "^20.12.12",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5"
+  }
+}
